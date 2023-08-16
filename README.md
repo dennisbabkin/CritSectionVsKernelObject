@@ -7,4 +7,6 @@ This is a repo with the sample code for my blog post:
 
 This POC project demonstrates performance difference between a critical section and a synchronization kernel object in Windows.
 
+![scrsht_01](https://github.com/dennisbabkin/CritSectionVsKernelObject/blob/main/CritSectionVsKernelObject/Screenshots/scr1.png)
 
+It covers the following topics:
