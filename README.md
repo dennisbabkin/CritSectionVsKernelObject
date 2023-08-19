@@ -11,6 +11,8 @@ This POC project demonstrates performance difference between a critical section 
 
 It covers the following topics:
 
+- [Intro](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#into)
+
 - [Critical Section](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#cs_lock)
 
   - [Critical Section Internals](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#cs_internals)
