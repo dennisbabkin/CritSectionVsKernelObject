@@ -26,8 +26,8 @@ It covers the following topics:
   - [Beginning of The System Call Handler](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sys_call_hndlr)
   - [Kernel Stack Layout](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#stack_layout)
   - [KiSystemServiceUser](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#svc_user)
-  - [System Service Number](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sys_srv_num)
-  - [Service Descriptor Tables](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#ssvc_desc_tbls)
+  - [KiSystemServiceStart - System Service Number](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sys_srv_num)
+  - [System Service Descriptor Tables](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#ssvc_desc_tbls)
   - [System Service Number To Service Function](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sys_srv_num_to_svc_func)
   - [Service Function Input Parameters](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#ssvc_func_params)
   - [Calling The Service Function](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#call_svc_func)
@@ -42,6 +42,10 @@ It covers the following topics:
   - [sysretq Instruction](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sysretq)
   - [System Exit With Meltdown Mitigations](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#sysexit_meltdown)
 
-- [Curious Find](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#curious_find)
+- [Alternative Exit](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#alt_exit)
+- [KiServiceInternal](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#KiServiceInternal)
+- [Zw* Kernel Functions Prolog](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#zw_prolog)
+- [Nt* Kernel Functions](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#nt_funcs)
 - [POC To Illustrate The Performance Impact](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#poc)
+- [Conclusion](https://dennisbabkin.com/blog/?t=critical_section_vs_kernel_objects_in_windows#conclusion)
 
